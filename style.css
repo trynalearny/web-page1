@@ -479,7 +479,7 @@ font-family: Roboto Thin;
     display:flex;
     list-style-type: none;
     color:#55585d;
-    width:1509px;
+    width:40px;
     height: 35px;
     align-items: center;
     gap: 20px;
@@ -493,15 +493,34 @@ font-family: Roboto Thin;
 }
 .details{
     align-items: center;
-    padding-right: 30rem;
-    padding-top:2rem ;
     display: inline-flex;
-    margin-right: 30rem;
-    height: 53px;
-
-    width: 333px;
+    padding-right: 10rem;
+    
+    
+  
+}
+.details input{
+    background-color: #21293d;
+    color: rgb(102, 93, 93);
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+    
+}
+.details button{
+   
+    height: 40px;
+    width:100px;
+    background-color: #5aac6e;
+    font-size: 20px;
+    color: rgb(218, 210, 210);
+    font-weight: 100;
+    margin-right: -4rem;
+   
 }
 .foot{
     background-color: #1d242d;
-    color: #2e3a46;
+    color: #bbc2c8;
+    font-size: 20px;
+    padding-left: 7rem;
 }
