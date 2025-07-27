@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 @import "tailwindcss";
 :root{
-    font-family:Roboto ,sans-serif;
+    font-family:"Roboto" ,"sans-serif";
 }
 body {
-   font-family:Roboto ,sans-serif;
+   font-family:"Roboto","sans-serif";
   
 }
 .wrapper{
@@ -16,7 +16,7 @@ body {
 .nav-inline{
     
      background-color: #212934;
-     max-width:1509x;
+     max-width:1509px;
     height: 35px;
     align-items: center;
      gap: 15px;
@@ -63,7 +63,7 @@ right: 915px;
     align-items: center;
       gap: 15px;
     font-size:11.8098px;
-    align-items: right;
+    
   
     
    
@@ -409,7 +409,7 @@ font-family: Roboto Thin;
 }
 .f1{
     padding-bottom: 7rem;
-    padding-left: -50px;
+   
     margin-left: -50px;
     
 }
@@ -427,7 +427,7 @@ font-family: Roboto Thin;
 }
 .f2 {
     margin-left: -10rem;
-    padding-left: -40px;
+    
  padding-bottom: 6rem;
     padding-right: 0px;
     margin-right: 0px;
@@ -458,7 +458,7 @@ font-family: Roboto Thin;
 
 .f3{
  margin-left: -30px;
-    padding-left: -50px;
+    
     padding-top:6rem;
     padding-right:10rem ;
     margin-top: -10rem;
@@ -545,8 +545,7 @@ font-family: Roboto Thin;
     padding: 0 1rem;
   }
 
-  /* ===== NAVBAR ===== */
-  /* ===== NAVBAR: FIXED ===== */
+  
 .nav-inline {
   display: flex;
   flex-direction: column;
@@ -561,7 +560,7 @@ font-family: Roboto Thin;
 
 .nav1 {
   display: flex;
-  flex-direction: row;   /* 🟢 Zay, About, Contact in one line */
+  flex-direction: row;   
   justify-content: center;
   gap: 15px;
   flex-wrap: wrap;
@@ -574,7 +573,7 @@ font-family: Roboto Thin;
 
 .nav2 {
   display: flex;
-  flex-direction: row;   /* 🟢 Icons in one line, next line */
+  flex-direction: row;   
   justify-content: center;
   gap: 20px;
   list-style: none;
@@ -589,22 +588,21 @@ font-family: Roboto Thin;
   text-decoration: none;
 }
 
-  /* ===== HERO HEADER ===== */
-/* ===== HERO HEADER FIXED ===== */
+ 
 .div-hero {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
   width: 100%;
-  background-color: white;      /* ✅ white background */
+  background-color: white;      
   padding: 1.5rem 0;
   margin: 0 auto;
   gap: 10px;
-   /* optional light shadow */
+  
 }
 
-/* Zay title */
+
 .hero {
   font-size: 32px;
   padding: 0;
@@ -612,7 +610,7 @@ font-family: Roboto Thin;
   color: #59ab6e;
 }
 
-/* Navigation links in one row */
+
 .hero-items {
   display: flex;
   flex-direction: row;
@@ -627,7 +625,7 @@ font-family: Roboto Thin;
   font-size: 16px;
 }
 
-/* Icons (next line) */
+
 .hero2 {
   display: flex;
   flex-direction: row;
@@ -640,8 +638,7 @@ font-family: Roboto Thin;
 }
 
 
-
-  /* ===== SECTION 1 ===== */
+ 
   .section1 {
     position: static;
     height: auto;
@@ -664,7 +661,7 @@ font-family: Roboto Thin;
     float: none;
   }
 
-  /* ===== SECTION 2 ===== */
+  
   .section2 {
     padding-top: 3rem;
     margin-bottom: 3rem;
@@ -685,18 +682,18 @@ font-family: Roboto Thin;
     object-fit: cover;
   }
 
-  /* ===== SECTION 3 (CARDS) ===== */
+  
   .sec3 {
   padding: 2rem 1rem;
   height: auto;
   text-align: center;
 }
 
-/* Make sure this UL behaves like flex container */
+
 .sec3 ul {
   display: flex;
   flex-direction: column;
-  align-items: center;  /* ✅ Center cards horizontally */
+  align-items: center;  
   justify-content: center;
   gap: 2rem;
   padding: 0;
@@ -704,7 +701,7 @@ font-family: Roboto Thin;
   list-style: none;
 }
 
-/* Optional if you wrap cards in .feature_items */
+
 .feature_items {
   display: flex;
   flex-direction: column;
@@ -712,13 +709,13 @@ font-family: Roboto Thin;
   width: 100%;
 }
 
-/* The actual card */
+
 .sec3_l1 {
   width: 90%;
-  max-width: 400px;     /* ✅ Optional limit to avoid stretching */
-  margin: 1rem auto;     /* ✅ Auto margin centers block element */
+  max-width: 400px;     
+  margin: 1rem auto;     
   text-align: left;
-  background-color: white; /* Optional: makes the card visible */
+  background-color: white; 
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   padding: 1rem;
   border-radius: 8px;
@@ -754,7 +751,7 @@ font-family: Roboto Thin;
   }
 
   .socials {
-  display: flex;               /* 🔧 missing display */
+  display: flex;               
   justify-content: center;
   gap: 1rem;
   margin-top: 1rem;
@@ -762,7 +759,7 @@ font-family: Roboto Thin;
 }
 
 .footer_list {
-  display: flex;               /* 🔧 missing display */
+  display: flex;               
   flex-direction: row;
   justify-content: center;
   gap: 1rem;
@@ -772,8 +769,8 @@ font-family: Roboto Thin;
 
 
   .details {
-  display: flex;               /* 🔧 required for alignment */
-  flex-direction: row;         /* ← horizontal */
+  display: flex;               
+  flex-direction: row;         
   justify-content: center;
   align-items: center;
   padding: 1rem;
@@ -783,7 +780,7 @@ font-family: Roboto Thin;
 
 .details input,
 .details button {
-  width: auto;                 /* ← remove 90% to stop overflow */
+  width: auto;                 
   min-width: 150px;
   height: 40px;
   font-size: 16px;
