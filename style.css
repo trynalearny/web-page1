@@ -16,8 +16,7 @@ html{
 body,html{
     font-family:"Inter",sans-serif;
     font-weight:400;
-  
-    scroll-bheaviour:smooth;
+  scroll-behavior : smooth;
    
    
 }
@@ -84,12 +83,18 @@ border-radius:5rem;
 
 .h-card{
     display:flex;
+    
     margin:2rem 0;
      box-shadow: 0px 5px 4px rgba(221, 221, 221, 0.25);
 border:1px solid #e2e2e2;
 border-radius:0.5rem;
 overflow:hidden;
 align-items:center;
+}
+.h-card .card{
+    padding:2rem;
+        
+    
 }
 .h-card h2{
     font-size: 4rem;
@@ -149,7 +154,7 @@ align-items:center;
 .h-card .card-content{
     display:grid;
   
-    grid-template-column:repeat(auto-fit,minmax(320px,1fr));
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
 
 }
 .card-wrapper{
